@@ -1,0 +1,49 @@
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    padding: 30px 0;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+form button {
+    margin: 0;
+}
+
+form input {
+    margin: 0 15px;
+}
+
+.hero-and-status {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.hero-status {
+    width: 25%;
+}
+
+#inventory-list {
+    max-height: 80px;
+    overflow: scroll;
+    height: 900px;
+}
+
+.icons {
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+
+.icons img {
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    cursor: pointer;
+    border: 5px solid brown;
+    border-radius: 10px;
+}

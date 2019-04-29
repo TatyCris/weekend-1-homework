@@ -3,16 +3,35 @@
     <meta charset="utf-8">
     <title>Mocha Tests</title>
     <link href="lib/mocha.css" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
 
   <!-- 👍 YOUR HTML HERE 👍 -->
 
+  <form id="nameForm">
+    <label for="heroName">Type your Hero's name:</label>
+    <input name="heroName" type="text" required>
+    <button type="submit">Update</button>
+  </form>
+  <div class="hero-and-status">
+    <div class="hero-status">
+      <h1 id="hero"></h1>
+      <h4>health: <span id="health"></span></h4>
+      <h4>weapon type: <span id="weapon-type"></span></h4>
+      <h4>weapon damage: <span id="weapon-damage"></span></h4>
+      <h4>inventory: </h4>
+      <ul id="inventory-list"></ul>
+    </div>
+    <div>
+      <img src="img/hero.png" alt="hero">
+    </div>
+  </div>
   <div class="icons">
-    <img id="inn">
-    <img id="dagger">
-    <img id="bag">
+    <img id="inn" src="img/inn.png" alt="portion to restore">
+    <img id="dagger" src="img/dagger.png" alt="dagger">
+    <img id="bag" src="img/bag.png" alt="equip weapon">
   </div>
 
 
